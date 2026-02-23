@@ -1,0 +1,21 @@
+diabetes_system/
+├── app.py                    # Flask Web Application
+├── requirements.txt          # Dependencies
+├── data/                     # Dataset storage
+│   └── diabetes.csv          # (Will be downloaded automatically)
+├── models/                   # Saved models
+│   ├── best_model.pkl
+│   └── scaler.pkl
+├── static/                   # CSS and generated plots
+│   ├── css/
+│   │   └── style.css
+│   └── plots/
+│       ├── roc_curve.png
+│       └── feature_importance.png
+├── templates/                # HTML Templates
+│   ├── base.html
+│   ├── index.html
+│   └── result.html
+├── training/                 # ML Training Scripts
+│   └── train.py
+└── README.md
